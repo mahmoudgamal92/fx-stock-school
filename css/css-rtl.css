@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Cairo', sans-serif !important;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    li{
+   width:100%;
+   text-align:right
+}
+}
+
+h5,p,h4{
+    text-align: right;
+}
+.dropdown-item,label,b,span,input{
+    direction: rtl !important ;
+    text-align: right !important;   
+}
+
+header{
+    direction: rtl !important;
+    text-align: center !important;
+}
+
+#company_about{
+    direction: rtl !important ;
+    text-align: right !important;
+}
+
+nav ul li a{
+   
+    font-family: 'Cairo', sans-serif !important;
+}
+
+#send_btn{
+    font-family: 'Cairo', sans-serif !important;
+}
+
+#contact{
+ 
+    direction: rtl !important ;
+    text-align: right !important;
+}
+#info{
+    text-align: right !important;   
+}
+
+footer{
+    direction: rtl !important ;
+    text-align: right !important;
+   
+
+}
+
+.footer-link ul li a {
+    font-family: 'Cairo', sans-serif !important;
+
+}
+
+#switch_lang{
+  text-align: left !important;
+}
